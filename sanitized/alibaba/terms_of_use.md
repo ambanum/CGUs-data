@@ -1,6 +1,6 @@
  <. Back to list Terms of Use
 
-**Part A: New version - effective as of October 9, 2019**
+**Part A: New version - effective as of May 6th, 2020**
 
 PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY!
 
@@ -22,9 +22,7 @@ Welcome to www.alibaba.com and www.aliexpress.com! These Terms of Use describe t
 
 **2\. Provision of Services**
 
-2.1
-
-If you are a registered member of any of the Sites, and you are from mainland China, you are contracting with Hangzhou Alibaba Advertising Co., Ltd.
+2.1 If you are a registered member of any of the Sites, and you are from mainland China, you are contracting with Hangzhou Alibaba Advertising Co., Ltd.
 
 If you are a registered member of any of the Sites, and you are from Hong Kong or Macau, the Alibaba.com contracting entity that you are contracting with is Alibaba.com Hong Kong Limited.
 
@@ -188,7 +186,7 @@ f) any matters relating to the Sites or Services, however arising, including neg
 
 **9\. Force Majeure**
 
-9.1 Under no circumstances shall Alibaba.com be held liable for any delay or failure or disruption of the content or the Services accessed or delivered through the Sites resulting directly or indirectly from acts of nature, forces or causes beyond our reasonable control, including without limitation, Internet failures, computer, telecommunications or any other equipment failures, electrical power failures, strikes, labor disputes, riots, insurrections, civil disturbances, shortages of labor or materials, fires, flood, storms, explosions, acts of God, war, governmental actions, orders of domestic or foreign courts or tribunals or non-performance of third parties.
+9.1 Under no circumstances shall Alibaba.com be held liable for any delay or failure or disruption of the content or the Services accessed or delivered through the Sites or the creation or fulfilment of contracts resulting directly or indirectly from acts of nature, forces or causes beyond our reasonable control, including without limitation, Internet failures, computer, telecommunications or any other equipment failures, electrical power failures, strikes, labor disputes, riots, insurrections, civil disturbances, shortages of labor or materials, fires, flood, storms, explosions, acts of God, war, governmental actions, orders of domestic or foreign courts or tribunals, or non-performance of third parties or any suspension or disruption of transportation or business operation (including but not limited to delays or disruption of the resumption of work or operation ordered by any government agency) in the event of a national or regional spread of epidemic or pandemic.
 
 **10\. Intellectual Property Rights**
 
