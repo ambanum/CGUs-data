@@ -23,14 +23,14 @@
             <link rel="canonical" href="/privacy">
         <link rel="apple-touch-icon-precomposed" href="https://i.vimeocdn.com/favicon/main-touch_180">
 
-<link rel="mask-icon" href="https://f.vimeocdn.com/svg/legacy_view_support/iris_icon_v_64.svg?DEV" color="#17272e">
+<link rel="mask-icon" href="https://f.vimeocdn.com/svg/legacy_view_support/iris_icon_v_64.svg?3dd4e575b7f81ba6345c551b79761a9c2c3e63f9" color="#17272e">
 
-    <link rel="shortcut icon" href="https://f.vimeocdn.com/images_v6/favicon.ico?DEV" data-play="https://i.vimeocdn.com/favicon/play_32" data-pause="https://i.vimeocdn.com/favicon/pause_32">
+    <link rel="shortcut icon" href="https://f.vimeocdn.com/images_v6/favicon.ico?3dd4e575b7f81ba6345c551b79761a9c2c3e63f9" data-play="https://i.vimeocdn.com/favicon/play_32" data-pause="https://i.vimeocdn.com/favicon/pause_32">
 
 <meta name="msapplication-TileImage" content="https://i.vimeocdn.com/favicon/main-touch_144">
 <meta name="msapplication-TileColor" content="#00adef">
         <title>Privacy Policy on Vimeo</title>
-                    <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?DEV">
+                    <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?3dd4e575b7f81ba6345c551b79761a9c2c3e63f9">
 
     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global_legacy_combined.min.css?bccd41ba">
     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global_legacy_shared_combined.min.css?7518cd8f">
@@ -371,15 +371,7 @@ window.addEventListener('load', handleGDPR);
                             onclick="handleNewVideoClick()"
                         >
                             <span class="topnav_desktop_video_popover_span_wrapper">
-                                <span class="topnav_desktop_video_popover_span">
-                                    <svg viewBox="0 0 24 24">
-                                        <path
-                                            d="M18 11h-5V6a1 1 0 1 0-2 0v5H6a1 1 0 0 0 0 2h5v5a1 1 0 0 0 2 0v-5h5a1 1 0 0 0 0-2z"
-                                            fill="#1a2e3b"
-                                        ></path>
-                                    </svg>
-                                </span>
-                                New video                                <span class="topnav_desktop_video_popover_span_variant hide">
+                                New video                                <span class="topnav_desktop_video_popover_span_variant">
                                     <svg viewBox="0 0 24 24" width="24px" height="24px">
                                         <path
                                             d="M12 15.5a1 1 0 0 1-.67-.26l-5-4.5 1.34-1.48L12 13.15l4.33-3.9 1.34 1.49-5 4.5a1 1 0 0 1-.67.26z"
@@ -390,18 +382,7 @@ window.addEventListener('load', handleGDPR);
                             </span>
                         </button>
                         
-                                                    <ul id="new_video_dropdown" class="topnav_desktop_menu_items_dropdown topnav_desktop_video_popover_dropdown" role="menu" aria-hidden="true">
-                                                                    
-                                    <li class="topnav_desktop_menu_items_dropdown_item" role="menuitem" tabindex="-1">
-                                        <a onclick="(function(event) { if (window.handleUploadButtonClick) { handleUploadButtonClick(event); }})(event)" data-fatal-attraction="container:top_nav|component:new_video|keyword:{'action':'upload'}|target:/upload|type:click" id="topnav_desktop_upload_button" href="//vimeo.com/upload" >Upload</a>
-                                    </li>
-                                                                    
-                                    <li class="topnav_desktop_menu_items_dropdown_item" role="menuitem" tabindex="-1">
-                                        <a onclick="handleCreateVideoClick(event)" data-fatal-attraction="container:top_nav|component:new_video|keyword:{'action':'create'}|target:/create/video-maker|type:click" id="topnav_desktop_create_video_button" href="//vimeo.com/create/video-maker" >Create a video</a>
-                                    </li>
-                                                            </ul>
-                            <!-- AB Test Container: New Video Button Dropdown 'top_nav_create' param: 'join_with_design'-->
-                            <ul id="new_video_dropdown_variant" class="topnav_desktop_menu_items_dropdown topnav_desktop_video_popover_dropdown_variant hide" role="menu" aria-hidden="true">
+                                                    <ul id="new_video_dropdown_variant" class="topnav_desktop_menu_items_dropdown topnav_desktop_video_popover_dropdown_variant" role="menu" aria-hidden="true" style="padding: unset;">
                                                                     
                                     <li class="topnav_desktop_menu_items_dropdown_item_variant" role="menuitem" tabindex="-1">
                                         <a onclick="(function(event) { if (window.handleUploadButtonClick) { handleUploadButtonClick(event); }})(event)" data-fatal-attraction="container:top_nav|component:new_video|keyword:{'action':'upload'}|target:/upload|type:click" id="topnav_desktop_upload_button" href="//vimeo.com/upload" ><div class="align_topnav_dropdown_icons"><span class="topnav_dropdown_icons"><svg viewBox="0 0 20 20" width="24px" height="24px">
@@ -421,7 +402,6 @@ window.addEventListener('load', handleGDPR);
                     </svg></span>Create a video</div></a>
                                     </li>
                                                             </ul>
-                            <!-- End AB Test Container -->
                                             </div>
                 
                 <div id="cart_top_nav" class="topnav_cart_button"></div>
@@ -479,22 +459,9 @@ window.addEventListener('load', handleGDPR);
                 .then(completeUserLogin);
         }
     }
-</script>
-
-<script>
-    // AB Test `top_nav_create`
-    // We're bucketing on page load on purpose.
-    document.addEventListener('DOMContentLoaded', function() {
-        window.inCreateVideoVariant = false;
-        if (window.vimeo && !window.vimeo.cur_user && window.ABLincoln) {
-            window.inCreateVideoVariant = window.ABLincoln.getTest(
-                'JS.TopNav.Create'
-            ).get('top_nav_create', 'control') !== 'control';
-        }
-    });
 
     function handleCreateVideoClick(e) {
-        if (window.inCreateVideoVariant) {
+        if (window.vimeo && !window.vimeo.cur_user) {
             e.preventDefault();
             window.vimeo.Modal.create({
                 size: 'xsmall',
@@ -502,28 +469,7 @@ window.addEventListener('load', handleGDPR);
             }).then(completeUserLogin);
         }
     }
-</script>
-
-<script>
-    /* AB Test - consistent 'New Video' button dropdown behaviors*/
-    if (window.ABLincoln) {
-        var test = window.ABLincoln.getTest('JS.TopNav.Create').get('top_nav_create', 'control');
-        if (test === 'join_with_design') {
-            //toggle icon and location of icon on new video button
-            var plusIcon = document.querySelector('.topnav_desktop_video_popover_span');
-            plusIcon.classList.add('hide');
-            var arrowDownIcon = document.querySelector('.topnav_desktop_video_popover_span_variant');
-            arrowDownIcon.classList.toggle('hide');
-            //toggle dropdown
-            var controlDropdown = document.getElementById('new_video_dropdown');
-            controlDropdown.classList.toggle('hide');
-            var variantDropdown = document.getElementById('new_video_dropdown_variant');
-            variantDropdown.style.padding = "unset";
-            variantDropdown.classList.toggle('hide');
-        } 
-    }
-</script>
-<script>
+    
     function trackNewVideoDropdownImpression() {
         if (window.__fa) {
             window.__fa.push(['trackEvent', {
@@ -1499,7 +1445,7 @@ Users also have a role to play in keeping their data safe. We encourage you to u
 
                 <aside id="footer_tip" class="footer_v2__tip" aria-live="polite">
             <h4 class="footer_v2__tip-header">Did you know?</h4>
-            <p class="active footer_v2__tip-content"><a href="https://vimeo.com/s/tmq" data-fatal-attraction="container:did_you_know_box|component:product">Add content ratings</a> to your videos so your grandma doesn’t encounter your Mature work by mistake.</p>
+            <p class="active footer_v2__tip-content">We can help you avoid severe migraines by gently walking you through <a href="/help/compression" data-fatal-attraction="container:did_you_know_box|component:product">video compression best practices</a> with our friendly tutorials.</p>
         </aside>
     </section>
     
@@ -1580,7 +1526,7 @@ Users also have a role to play in keeping their data safe. We encourage you to u
         IMAGE_DIR = 'https://f.vimeocdn.com/images_v6/',
         FONT_DIR = 'https://f.vimeocdn.com/fonts/',
         SVG_DIR = 'https://f.vimeocdn.com/svg/',
-                BUILD_HASH = '4e59a';
+                BUILD_HASH = 'e6fa7';
 
     
         var vimeo = _extend((window.vimeo || {}), {"app_version":"v6","domain":"vimeo.com","url":"vimeo.com","cur_user":false,"origin_user_id":null,"origin_user":false,"is_mobile":false});
