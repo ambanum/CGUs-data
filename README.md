@@ -18,15 +18,16 @@ L'**ensemble des documents suivis** pour ce service s'affichent, cliquez ensuite
 
 Pour afficher l'**historique des modifications** subies par ce document, cliquez sur **History** en haut à droite du document (pour l'exemple précédent nous arrivons [ici](https://github.com/ambanum/CGUs-data/commits/master/sanitized/WhatsApp/privacy_policy.md)). Les **modifications** sont affichées **par dates**, de la plus récente à la plus ancienne. 
 
-Cliquez sur une modification pour voir en quoi elle consiste (par exemple [celle-ci](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714)). Vous disposez de **deux types d'affichage**, sélectionnables dans la barre grisée qui chapeaute le document. 
+Cliquez sur une modification pour voir en quoi elle consiste (par exemple [celle-ci](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714)). Vous disposez de **deux types d'affichage**, sélectionnables à partir des icônes dans la barre grisée qui chapeaute le document. 
 
-- Le premier, appelé *source diff* (bouton avec des chevrons) permet d'**afficher côte-à-côte l'ancienne version et la nouvelle** (pour notre [exemple](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714ad?diff=split#diff-10a2ec84b67a5279bfaa19db2380fd2c)). Cet affichage a le mérite de **montrer explicitement** l'ensemble des ajouts/suppressions, mais le défaut de **ne pas être très visuel**.
-- Le second, appelé *rich diff* (bouton avec l'icône document) permet d'**unifier l'ensemble des modifications sur un seul document** (pour notre [exemple](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714ad?diff=split&short_path=10a2ec8#diff-10a2ec84b67a5279bfaa19db2380fd2c)). La couleur **rouge** montre les éléments **supprimés**, la couleur **jaune** montre les paragraphes **modifiés**, et la couleur **verte** montrent les éléments **ajoutés**. Cet affichage est plus **lisible** mais **ne montre pas certaines modifications** (changement des hyperliens et style du texte).
+- Le premier, appelé *source diff* (bouton avec des chevrons) permet d'**afficher côte-à-côte l'ancienne version et la nouvelle** (pour notre [exemple](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714ad?diff=split#diff-10a2ec84b67a5279bfaa19db2380fd2c)). Cet affichage a le mérite de **montrer explicitement** l'ensemble des ajouts/suppressions.
+- Le second, appelé *rich diff* (bouton avec l'icône document) permet d'**unifier l'ensemble des modifications sur un seul document** (pour notre [exemple](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714ad?diff=split&short_path=10a2ec8#diff-10a2ec84b67a5279bfaa19db2380fd2c)). La couleur **rouge** montre les éléments **supprimés**, la couleur **jaune** montre les paragraphes **modifiés**, et la couleur **verte** montrent les éléments **ajoutés**. Attention, cet affichage **ne montre pas certaines modifications** comme le changement des hyperliens et le style du texte.
 
 **Remarques** : 
 
 - Pour les longs documents, les **paragraphes inchangés ne seront pas affichés par défaut**. Vous pouvez manuellement les faire apparaître en cliquant sur les petites flèches juste au-dessus ou juste en-dessous des paragraphes affichés. 
-- Vous pouvez utiliser le bouton **History n'importe où** dans le dépôt CGUs-data, qui affichera alors l'**historique des modifications subies par tous les documents se trouvant dans le dossier** où vous vous trouvez (y compris dans les sous-dossiers). 
+- Vous pouvez utiliser le bouton **History n'importe où** dans le dépôt 
+CGUs-data, qui affichera alors l'**historique des modifications subies par tous les documents se trouvant dans le dossier** où vous vous trouvez (y compris dans les sous-dossiers). 
 
 # Browse version history
 
@@ -36,10 +37,10 @@ You will see the **set of documents tracked** for that service, now click **on t
 
 To view the **history of changes** made to this document, click on **History** at the top right of the document (for our previous [example](https://github.com/ambanum/CGUs-data/commits/master/sanitized/WhatsApp/privacy_policy.md)). The **changes** are ordered **by date**, with the latest first. 
 
-Click on a change to see what it consists of (for example [this one](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714)). There are **two types of display**, selectable from the gray bar at the top of the document. 
+Click on a change to see what it consists of (for example [this one](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714)). There are **two types of display** you can choose from the icons in the gray bar above the document. 
 
-- The first one, named *source diff* (button with chevrons) allows you to **display the old version and the new one side by side** (for our [example](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714ad?diff=split#diff-10a2ec84b67a5279bfaa19db2380fd2c)). This display has the merit of **explicitly showing** all additions and deletions, but **isn't visually appealing**.
-- The second one, named *rich diff* (button with a document icon) allows you to **unify all the changes in a single document** (for our [example](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714ad?diff=split&short_path=10a2ec8#diff-10a2ec84b67a5279bfaa19db2380fd2c)). The **red** color shows **deleted** elements, the **yellow** color shows **modified** paragraphs, and the **green** color shows **added** elements. This display is more **readable** but **does not show some changes** (hyperlinks and text style's changes).
+- The first one, named *source diff* (button with chevrons) allows you to **display the old version and the new one side by side** (for our [example](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714ad?diff=split#diff-10a2ec84b67a5279bfaa19db2380fd2c)). This display has the merit of **explicitly showing** all additions and deletions.
+- The second one, named *rich diff* (button with a document icon) allows you to **unify all the changes in a single document** (for our [example](https://github.com/ambanum/CGUs-data/commit/40d21fd3a03660aeb5dcdff7ff65585b095714ad?diff=split&short_path=10a2ec8#diff-10a2ec84b67a5279bfaa19db2380fd2c)). The **red** color shows **deleted** elements, the **yellow** color shows **modified** paragraphs, and the **green** color shows **added** elements. Be careful, this display **does not show some changes** such as hyperlinks and text style's changes.
 
 **Notes** : 
 
