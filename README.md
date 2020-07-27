@@ -4,7 +4,7 @@ History of all changes to the Terms Of Service of online service providers.
 
 > Historique des modifications des Conditions Générales d'Utilisations des principaux fournisseurs de services en ligne.
 
-[Manuel en français](#manuel-francais) plus bas.
+[Manuel en français](#manuel) plus bas.
 
 ## User manual
 
@@ -33,7 +33,7 @@ Click on a change to see what it consists of (for example [this one](https://git
 - You can use the **History button anywhere** in the repository CGUs-data, which will then display the **history of changes made to all documents in the folder** where you are (including sub-folders).
 
 
-## Manuel (français)
+## Manuel
 
 ### Recevoir des notifications
 
