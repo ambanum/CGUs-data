@@ -35,6 +35,12 @@ Click on a change to see what it consists of (for example [this one](https://git
 
 ## Manuel (français)
 
+### Recevoir des notifications
+
+Vous pouvez vous abonner pour recevoir un courriel lorsqu'un document est modifié en [remplissant ce formulaire](https://59692a77.sibforms.com/serve/MUIEAKuTv3y67e27PkjAiw7UkHCn0qVrcD188cQb-ofHVBGpvdUWQ6EraZ5AIb6vJqz3L8LDvYhEzPb2SE6eGWP35zXrpwEFVJCpGuER9DKPBUrifKScpF_ENMqwE_OiOZ3FdCV2ra-TXQNxB2sTEL13Zj8HU7U0vbbeF7TnbFiW8gGbcOa5liqmMvw_rghnEB2htMQRCk6A3eyj).
+
+**Attention, ce service est en version bêta et vous risquez de recevoir de nombreuses notifications !** Vous pourrez vous désabonner en répondant à n'importe quel courriel reçu.
+
 ### Naviguer dans l'historique des versions
 
 À partir de la **page d'accueil du dépôt** [CGUs-data](https://github.com/ambanum/CGUs-data), ouvrez le dossier [sanitized](https://github.com/ambanum/CGUs-data/tree/master/sanitized) et cliquez sur le **service de votre choix** (prenons par exemple [WhatsApp](https://github.com/ambanum/CGUs-data/tree/master/sanitized/WhatsApp)).
