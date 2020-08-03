@@ -2,7 +2,9 @@ See [Terms of Use](/legal/2020-04/en/terms.html) effective before 2020-04-07.
 
 Effective Date: 2020-04-07
 
-1\. Important information
+[pookie](#important-information)
+
+Important information
 =========================
 
 1A. What are these Terms of Use?
