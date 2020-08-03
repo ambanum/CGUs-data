@@ -2,7 +2,7 @@ See [Terms of Use](/legal/2020-04/en/terms.html) effective before 2020-04-07.
 
 Effective Date: 2020-04-07
 
-[pookie](#important-information)
+[pookie](about:blank#important-information)
 
 Important information
 =========================
