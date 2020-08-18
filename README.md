@@ -1,3 +1,9 @@
+:warning:
+
+**This repository is archived and kept for historical purposes: some links in `CGUs-versions` still point to this dataset.**
+
+**In order to explore the versions and snapshots of terms of services, read the manual on https://github.com/AmbaNum/CGUs.**
+
 # CGUs Data
 
 History of all changes to the Terms Of Service of online service providers.
